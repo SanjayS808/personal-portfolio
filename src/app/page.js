@@ -1,11 +1,18 @@
+
 import React from "react";
+
 import {BsFillMoonStarsFill } from "react-icons/bs";
 import{AiFillGithub, AiFillLinkedin, AiFillInstagram} from "react-icons/ai";
 import Image from "next/image";
 import profile from "/Users/sanjaysugumar/jchipsportfolio/public/Sanjay-portfolio.jpg";
 import Link from "next/link";
+import { motion } from "framer-motion";
+
+
+
 
 export default function Home() {
+  
   return (
     <div>
       
@@ -15,34 +22,24 @@ export default function Home() {
 
             
 
-        <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        
 
-          <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <nav class="bg-white shadow dark:bg-gray-800">
+                <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+                    <a href="/" class="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">Home</a>
 
-              <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-          </div>
-          <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky ">
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                <a href="/" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-              </li>
-              <li>
-                <Link href="/projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</Link>
-              </li>
-              <li>
-                <Link href="/gallery" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Gallery</Link>
-              </li>
-              
-            </ul>
-          </div>
-          </div>
-        </nav>
+                    <a href="/projects" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Projects</a>
+
+                    <a href="/gallery" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Gallery</a>
+
+                    <a href="/aboutme" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">About Me</a>
+
+                    <a href="/contact" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Contact</a>
+
+
+                </div>
+            </nav>
+
 
 
             <div className="text-center p-10 mt-10">
@@ -56,22 +53,18 @@ export default function Home() {
                 <a href="https://github.com/SanjayS808" className="hover:scale-110 transition-transform duration-300"> <AiFillGithub></AiFillGithub></a>
 
             </div>
+            
             <div >
               <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10"/>
             </div>
-
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                
+                </div>
             
 
           </section>
           
-          <section id = "Projects" className="bg-slate-400">
-            <div> 
-              <h2 className="text-5xl text-center py-10">Projects</h2>
-              <h3>Here are some cool things I've worked on!</h3>
-
-
-            </div>
-          </section>
+          
 
       </main>
     </div>

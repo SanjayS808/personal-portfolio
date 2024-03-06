@@ -42,7 +42,7 @@ export default function Home() {
 
 
 
-            <div className="text-center p-10 mt-10">
+            <div className="text-center p-10 mt-0">
               <h2 className="text-5xl py-2 text-cyan-500 font-medium">Sanjay Sugumar</h2>
               <h3 className="text-xl py-2">Software Engineer. </h3>
               <p className="text-md py-5 leading-8 text-gray-800"> Howdy! Give me a job </p>

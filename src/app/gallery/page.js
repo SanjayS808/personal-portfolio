@@ -42,9 +42,9 @@ export default function Gallery() {
                   <div class="card-back">
                     <ul className="p-5">
 
-                      <li className="p-2 text-3xl font-bold ">Minolta XG-M • 35mm film SLR</li>
+                    <li className="p-2 text-3xl font-bold "> <a href = "https://en.wikipedia.org/wiki/Minolta_XG-M"><span class="border-b border-solid border-black border-b-3">Minolta XG-M</span></a> • 35mm SLR</li>
                       <li className=" text-lg p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
-                      <li className=" text-lg p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
+                      <li className=" text-lg p-2"><p>•This camera takes 35mm film and features an automatic light-meter, aperture-priority exposure, and full manual mode.</p></li>
 
                     </ul>                      
 
@@ -63,8 +63,15 @@ export default function Gallery() {
                 <Image src={lumix} style={{ width: '650px', height: '350px', objectFit: 'scale-down' }} />
                 </div>
                 <div class="card-back">
-                  <p>Back Side</p>
-                </div>
+                    <ul className="p-5">
+
+                      <li className="p-2 text-3xl font-bold "> <a href = "https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-GX8"><span class="border-b border-solid border-black border-b-3">Lumix GX-85</span></a> • Compact Mirorless Camera</li>
+                      <li className=" text-lg p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
+                      <li className=" text-lg p-2"><p>•This camera takes 35mm film and features an automatic light-meter, aperture-priority exposure, and full manual mode.</p></li>
+
+                    </ul>                      
+
+                  </div>
               </div>
             </div>
           </div>

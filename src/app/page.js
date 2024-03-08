@@ -7,7 +7,7 @@ import Image from "next/image";
 import profile from "/Users/sanjaysugumar/jchipsportfolio/public/Sanjay-portfolio.jpg";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
+import "./cv.css"
 
 
 
@@ -46,7 +46,21 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-cyan-500 font-medium">Sanjay Sugumar</h2>
               <h3 className="text-xl py-2">Software Engineer. </h3>
               <p className="text-md py-5 leading-8 text-gray-800"> Howdy! Give me a job </p>
+
+              <div className="flex justify-center p-1">
+              <a href="https://drive.google.com/uc?export=download&id=15QTCKuwYTudUtIgP4zi6DcdTkLEnRItc">
+              <div class="button" data-tooltip="Size: 115 KB">
+                <div class="button-wrapper">
+                  <div class="text">Download CV</div>
+                    <span class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path></svg>
+                    </span>
+                  </div>
+                </div>
+                </a>
             </div>
+            </div>
+
             <div className="text-5xl flex justify-center gap-16 py-3">
                 <a href="https://www.linkedin.com/in/sanjays20/" className="hover:scale-110 transition-transform duration-300"> <AiFillLinkedin></AiFillLinkedin></a>
                 <a href="https://www.instagram.com/sanjay_s.s/" className="hover:scale-110 transition-transform duration-300"> <AiFillInstagram></AiFillInstagram></a>
@@ -55,7 +69,14 @@ export default function Home() {
             </div>
             
             <div >
-              <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10"/>
+              <ul>
+                <li>
+                  <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10"/>
+                </li>
+                <li>
+                
+                </li>
+              </ul>
             </div>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 

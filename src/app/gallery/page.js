@@ -3,8 +3,8 @@ import React from "react";
 import Image from "next/image";
 import "./div.css";
 
-import minolta from "/Users/sanjaysugumar/jchipsportfolio/public/minolta.jpg";
-import lumix from "/Users/sanjaysugumar/jchipsportfolio/public/lumix.jpg";
+import minolta from "/Users/sanjaysugumar/jchipsportfolio/public/minolta.png";
+import lumix from "/Users/sanjaysugumar/jchipsportfolio/public/lumix.png";
 export default function Gallery() {
     return (
       <div>
@@ -28,7 +28,7 @@ export default function Gallery() {
                 </div>
         </nav>
 
-        <div className="flex justify-center font-bold p-5">
+        <div className="flex justify-center  text-3xl p-10 ">
           <h1>I also like to take pictures! Here are my cameras!</h1>
         </div>
 
@@ -37,15 +37,22 @@ export default function Gallery() {
               <div class="card">
                 <div class="card-inner">
                   <div class="card-front">
-                  <Image src={minolta} style={{ width: '650px', height: '350px', objectFit: 'cover' }} />
+                  <Image src={minolta} style={{ width: '650px', height: '350px', objectFit: 'scale-down' }} />
                   </div>
                   <div class="card-back">
-                    <ul>
-                      <li className="justify-center">Minolta XG-M</li>
-                      <li>35mm Film Camera</li>
+                    <ul className="p-5">
 
-                    </ul>
+                      <li className="p-2 text-3xl font-bold ">Minolta XG-M • 35mm film SLR</li>
+                      <li className=" text-lg p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
+                      <li className=" text-lg p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
+
+                    </ul>                      
+
                   </div>
+
+
+
+
                 </div>
               </div> 
           </div>
@@ -53,7 +60,7 @@ export default function Gallery() {
           <div class="card">
             <div class="card-inner">
                 <div class="card-front">
-                <Image src={lumix} style={{ width: '650px', height: '350px', objectFit: 'cover' }} />
+                <Image src={lumix} style={{ width: '650px', height: '350px', objectFit: 'scale-down' }} />
                 </div>
                 <div class="card-back">
                   <p>Back Side</p>

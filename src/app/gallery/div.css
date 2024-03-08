@@ -17,7 +17,7 @@
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.999s;
+    transition: transform .6s;
   }
   
   .card:hover .card-inner {
@@ -33,11 +33,11 @@
   }
   
   .card-front {
-    background-color: lightgray;
+    background-color: white;
     color: #fff;
     display: flex;
     align-items: center;
-    border: 10px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 10px;
     justify-content: center;
     font-size: 24px;
@@ -45,11 +45,11 @@
   }
   
   .card-back {
-    background-color: lightgray;
-    color: #fff;
+    background-color: white;
+    color: black;
     display: flex;
     
-    border: 10px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 10px;
     justify-content: center;
     font-size: 24px;

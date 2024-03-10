@@ -49,10 +49,10 @@ export default function Home() {
 
             <div className="text-center p-10 mt-0">
               <div className="text-6xl py-2 text-cyan-700 font-rock-3d  " >
-              <h2 className={rock.className}>Sanjay Sugumar</h2>
+              <h2 className="font-black">Sanjay Sugumar </h2>
               </div>
               <h3 className="text-xl py-2">Software Engineer. </h3>
-              <p className="text-md py-5 leading-8 text-gray-800"> Howdy! Give me a job </p>
+              <p className="text-md py-5 leading-8 text-gray-800"></p>
 
               <div className="flex justify-center p-1">
               <a href="https://drive.google.com/uc?export=download&id=15QTCKuwYTudUtIgP4zi6DcdTkLEnRItc">

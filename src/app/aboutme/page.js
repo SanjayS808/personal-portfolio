@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-
+import "./about.css";
 
 import aboutMe from "/Users/sanjaysugumar/jchipsportfolio/public/aboutme.jpg";
 
@@ -55,21 +55,19 @@ export default function AboutMe() {
                 </div>
 
                 <div className="mt-10 bg-gray-100 rounded-lg">
-                    <h2 className="flex justify-center text-2xl font-bold text-gray-800 dark:text-gray-200 ">
-                        Gallery
-                    </h2>
+
                     <div className="flex flex-wrap justify-center mt-4">
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
-                            <Image src={aboutTwo} alt="Lumix Camera" />
+                        <div class = "card" className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
+                            <Image src={aboutTwo} alt="Lumix Camera" className="rounded-2xl"/>
                         </div>
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
-                            <Image src={aboutOne} alt="Lumix Camera" />
+                        <div class = "card" className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
+                            <Image src={aboutOne} alt="Lumix Camera" className="rounded-2xl"/>
                         </div>
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1 ">
-                            <Image src={aboutThree} alt="Lumix Camera" />
+                        <div class = "card" className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1 ">
+                            <Image src={aboutThree} alt="Lumix Camera" className="rounded-2xl "/>
                         </div>
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
-                            <Image src={aboutFour} alt="Lumix Camera" />
+                        <div class = "card" className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-1">
+                            <Image src={aboutFour} alt="Lumix Camera" className="rounded-2xl"/>
                         </div>
                         {/* Add more gallery images here */}
                     </div>

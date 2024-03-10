@@ -3,8 +3,8 @@ import React from "react";
 import Image from "next/image";
 import "./div.css";
 
-import minolta from "/Users/sanjaysugumar/jchipsportfolio/public/minolta.png";
-import lumix from "/Users/sanjaysugumar/jchipsportfolio/public/lumix.png";
+import minolta from "/public/minolta.png";
+import lumix from "/public/lumix.png";
 export default function Gallery() {
     return (
       <div>

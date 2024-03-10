@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 import "./about.css";
 
-import aboutMe from "/Users/sanjaysugumar/jchipsportfolio/public/aboutme.jpg";
+import aboutMe from "/public/aboutme.jpg";
 
-import aboutOne from "/Users/sanjaysugumar/jchipsportfolio/public/abOne.jpg";
-import aboutTwo from "/Users/sanjaysugumar/jchipsportfolio/public/aboutTwo.jpg";
-import aboutThree from "/Users/sanjaysugumar/jchipsportfolio/public/aboutThree.jpg";
-import aboutFour from "/Users/sanjaysugumar/jchipsportfolio/public/aboutFour.jpg";
+import aboutOne from "/public/abOne.jpg";
+import aboutTwo from "/public/aboutTwo.jpg";
+import aboutThree from "/public/aboutThree.jpg";
+import aboutFour from "/public/aboutFour.jpg";
 
 
 

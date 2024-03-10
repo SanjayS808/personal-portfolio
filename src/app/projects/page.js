@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 import "./card.css";
 import Image from "next/image";
-import p1 from "/Users/sanjaysugumar/jchipsportfolio/public/p1.jpeg";
-import p2 from "/Users/sanjaysugumar/jchipsportfolio/public/p2.jpg";
+import p1 from "/public/p1.jpeg";
+import p2 from "/public/p2.jpg";
 
 export default function Projects() {
     return (

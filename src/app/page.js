@@ -1,6 +1,11 @@
 
 import React from "react";
+import { Slackside_One} from "next/font/google";
 
+const rock = Slackside_One({
+  weight: '400',
+  subsets: ['latin'],
+})
 import {BsFillMoonStarsFill } from "react-icons/bs";
 import{AiFillGithub, AiFillLinkedin, AiFillInstagram} from "react-icons/ai";
 import Image from "next/image";
@@ -43,7 +48,9 @@ export default function Home() {
 
 
             <div className="text-center p-10 mt-0">
-              <h2 className="text-5xl py-2 text-cyan-500 font-medium">Sanjay Sugumar</h2>
+              <div className="text-6xl py-2 text-cyan-700 font-rock-3d  " >
+              <h2 className={rock.className}>Sanjay Sugumar</h2>
+              </div>
               <h3 className="text-xl py-2">Software Engineer. </h3>
               <p className="text-md py-5 leading-8 text-gray-800"> Howdy! Give me a job </p>
 
@@ -69,14 +76,9 @@ export default function Home() {
             </div>
             
             <div >
-              <ul>
-                <li>
+    
                   <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10"/>
-                </li>
-                <li>
-                
-                </li>
-              </ul>
+
             </div>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 

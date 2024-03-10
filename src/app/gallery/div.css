@@ -1,13 +1,12 @@
 .camera{
-    width: 50%;
-    float: left;
+
     padding: 20px;
     
 }  
 .card {
     margin: auto;
-    width: 650px;
-    height: 350px;
+    width: 450px;
+    height: 250px;
     perspective: 1000px;
 
   }

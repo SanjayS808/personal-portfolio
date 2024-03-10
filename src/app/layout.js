@@ -1,7 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = Roboto({
+const slack = Roboto({
   weight: '100',
   subsets: ['latin'],
 })
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     
-      <body className={inter.className}>{children}</body>
+      <body className={slack.className}>{children}</body>
 
     </html>
   );

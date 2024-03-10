@@ -28,7 +28,7 @@ export default function Projects() {
                           
                         </div>
                     </nav>
-        <div className="flex justify-center  p-10 text-4xl">
+        <div className="flex justify-center  p-10 font-black text-4xl">
           <h1>Here are some of my projects!</h1>
           </div>        
         <div className="flex justify-center px-10 ">

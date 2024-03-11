@@ -32,26 +32,25 @@ export default function Projects() {
           <h1>Here are some of my projects!</h1>
           </div>        
         <div className="flex justify-center px-10 ">
-          
-          
-          <ul >
-            <li className="m-5">
-            <a href="https://project-3-csce331-client.onrender.com/">
-              <div class="card" >
-                  <Image src={p1} />
-                  <div class="card__content">
-                    <p class="card__title">Boba Point of Sale System</p>
-                    <p class="card__description"> • A fully functional point of sale system for a Boba shop. <br></br><br></br>• Cashiers can take orders, manage inventory, and view sales analytics.<br></br><br></br></p>
+                    <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                <Image src={p1} style={{ width: '650px', height: '350px', objectFit: 'scale-down' }} />
+                </div>
+                <div class="card-back">
+                    <ul className="p-5">
+
+                      <li className="p-2 text-xl font-bold "> <a href = "https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-GX8"><span class="border-b border-solid border-black border-b-3">Boba Point of Sale System</span></a> • React, Java, Python, SQL</li>
+                      <li className=" text-sm p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
+                      <li className=" text-sm p-2"><p>•This camera takes 35mm film and features an automatic light-meter, aperture-priority exposure, and full manual mode.</p></li>
+
+                    </ul>                      
+
                   </div>
               </div>
-              </a>
-            </li>
-            
-            <li>
-              
-            </li>
-
-          </ul>
+            </div>
+          
+          
           
         </div>
         </section>

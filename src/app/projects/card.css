@@ -1,65 +1,56 @@
+.camera{
+
+  padding: 20px;
+  
+}  
 .card {
-  position: relative;
-  
-  width: 100%;
-  max-width: 450px;
-  height: 225px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  perspective: 1000px;
-  box-shadow: 0 0 0 5px #ffffff80;
-  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+margin: auto;
+width: 100%;
+max-width: 450px;
+height: 250px;
+perspective: 1000px;
 }
 
-.card svg {
-  width: 48px;
-  fill: #333;
-  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-}
-
-.card__content {
-  position: absolute;
-  top: 0;
-  left: 0;
+.card-inner {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-  transform: rotateX(-90deg);
-  transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .3s;
 }
 
-.card:hover .card__content {
-  transform: rotateX(0deg);
+.card:hover .card-inner {
+  transform: rotateY(180deg);
 }
 
-.card__title {
-  margin: 0;
-  font-size: 20px;
-  color: #333;
-  font-weight: 700;
-  text-align: center;
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
-.card:hover svg {
-  scale: 0;
+.card-front {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
 }
 
-.card__description {
-  margin: 10px 0 0;
-  font-size: 1rem;
-  color: #777;
-  line-height: 1.4;
+.card-back {
+  background-color: white;
+  color: black;
+  display: flex;
+  
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
 }

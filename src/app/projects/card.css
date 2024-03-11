@@ -1,7 +1,8 @@
 .card {
   position: relative;
   
-  width: 400px;
+  width: 100%;
+  max-width: 450px;
   height: 225px;
   background-color: #f2f2f2;
   border-radius: 10px;

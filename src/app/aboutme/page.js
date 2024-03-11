@@ -29,7 +29,7 @@ export default function AboutMe() {
 
                     <a href="/aboutme" class="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">About Me</a>
 
-                    <a href="/contact" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Contact</a>
+                    <a href="/resume" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Resume</a>
 
 
                 </div>
@@ -51,7 +51,7 @@ export default function AboutMe() {
                             I have a strong passion for technology and I am always looking for ways to learn more about it. I am also a huge fan of photography and I love to take pictures in my free time.
                             Some of my other hobbies include workinng out, running, and reading books. Feel free to connect with my on my socials and thanks for checking out my website!
                         </p>
-                    </div>
+                    </div>`
                 </div>
 
                 <div className="mt-10 bg-gray-100 rounded-lg">

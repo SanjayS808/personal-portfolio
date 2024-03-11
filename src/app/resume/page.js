@@ -27,7 +27,7 @@ export default function Projects() {
           <h1>Resume</h1>
           </div> 
           <div className="flex justify-center items-center h-screen p-10">
-            <embed src="/sanjay_sugumar_resume.pdf" width="100%" height="100%" type="application/pdf" />
+            <embed src="sanjay_sugumar_resume.pdf" width="100%" height="100%" type="application/pdf" />
           </div>
         </section>
       </main>

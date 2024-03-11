@@ -1,17 +1,9 @@
 
 import React from "react";
-import { Slackside_One} from "next/font/google";
 
-const rock = Slackside_One({
-  weight: '400',
-  subsets: ['latin'],
-})
-import {BsFillMoonStarsFill } from "react-icons/bs";
 import{AiFillGithub, AiFillLinkedin, AiFillInstagram} from "react-icons/ai";
 import Image from "next/image";
 import profile from "/public/Sanjay-portfolio.jpg";
-import Link from "next/link";
-import { motion } from "framer-motion";
 import "./cv.css"
 
 

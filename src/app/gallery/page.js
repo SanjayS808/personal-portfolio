@@ -28,7 +28,7 @@ export default function Gallery() {
                 </div>
         </nav>
 
-        <div className="flex justify-center  font-black text-3xl p-10 ">
+        <div className="flex justify-center  font-black text-4xl p-10 ">
           <h1>I also like to take pictures! Here are my cameras!</h1>
         </div>
 

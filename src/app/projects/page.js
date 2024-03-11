@@ -37,7 +37,7 @@ export default function Projects() {
           <ul >
             <li className="m-5">
             <a href="https://project-3-csce331-client.onrender.com/">
-              <div class="card">
+              <div class="card" >
                   <Image src={p1} />
                   <div class="card__content">
                     <p class="card__title">Boba Point of Sale System</p>
@@ -46,18 +46,7 @@ export default function Projects() {
               </div>
               </a>
             </li>
-            <li className="m-5">
-            <a href="https://project-3-csce331-client.onrender.com/">
-              <div class="card">
-                  <Image src={p2}/>
-                  <div class="card__content">
-                    <p class="card__title">Environmental Impact and Data Models Research </p>
-                    <p class="card__description"> • A fully functional point of sale system for a Boba shop. <br></br><br></br>• Cashiers can take orders, manage inventory, and view sales analytics.<br></br><br></br></p>
-                  </div>
-              </div>
-              </a>
-              
-            </li>
+            
             <li>
               
             </li>

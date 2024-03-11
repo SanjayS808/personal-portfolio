@@ -69,7 +69,7 @@ export default function Home() {
             
             <div >
     
-                  <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10"/>
+                  <Image src={profile}className="relative mx-auto rounded-full w-80 h-80 mt-10 p-5"/>
 
             </div>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

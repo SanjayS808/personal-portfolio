@@ -4,12 +4,12 @@
     
 }  
 .card {
-    margin: auto;
-    width: 450px;
-    height: 250px;
-    perspective: 1000px;
-
-  }
+  margin: auto;
+  width: 100%;
+  max-width: 450px;
+  height: 250px;
+  perspective: 1000px;
+}
   
   .card-inner {
     width: 100%;

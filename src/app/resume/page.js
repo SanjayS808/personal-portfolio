@@ -23,7 +23,9 @@ export default function Projects() {
               <a href="/resume" class="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">Resume</a>
             </div>
           </nav>
-
+          <div className="flex justify-center py-4 font-black text-4xl">
+          <h1>Resume</h1>
+          </div> 
           <div className="flex justify-center items-center h-screen p-10">
             <embed src="/sanjay_sugumar_resume.pdf" width="100%" height="100%" type="application/pdf" />
           </div>

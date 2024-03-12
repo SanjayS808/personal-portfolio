@@ -35,14 +35,15 @@ export default function Projects() {
                     <div class="card">
             <div class="card-inner">
                 <div class="card-front">
-                <Image src={p1} style={{ width: '650px', height: '350px', objectFit: 'scale-down' }} />
+                <Image src={p1} className="rounded-lg" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
                 <div class="card-back">
                     <ul className="p-5">
 
-                      <li className="p-2 text-xl font-bold "> <a href = "https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-GX8"><span class="border-b border-solid border-black border-b-3">Boba Point of Sale System</span></a> • React, Java, Python, SQL</li>
-                      <li className=" text-sm p-2"><p>•Picked up of off Facebook Marketplace, this old SLR film camera introduced in 1981 still remains one of my favorite cameras today.</p></li>
-                      <li className=" text-sm p-2"><p>•This camera takes 35mm film and features an automatic light-meter, aperture-priority exposure, and full manual mode.</p></li>
+                      <li className=" text-xl font-bold "> <a href = "https://project-3-csce331-client.onrender.com/"><span class="border-b border-solid border-black border-b-3">Boba Point of Sale System</span></a></li>
+                      <li className="py text-sm font-bold "> React, Java, Python, SQL</li>
+                      <li className=" text-sm p-2"><p>•A point of sale system for a fictional boba shop capable of taking orders, inventory management, and generating sales analytics.</p></li>
+                      <li className=" text-sm p-2"><p>•Uses a PostgreSQL database for backend data storage and a React.js frontend for an intuitive UI.</p></li>
 
                     </ul>                      
 

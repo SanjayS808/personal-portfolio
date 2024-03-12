@@ -46,7 +46,7 @@ export default function AboutMe() {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <h1 className=" flex justify-center text-4xl font-bold text-gray-800 dark:text-gray-200 py-3" >About Me</h1>
-                        <p className="text-xl text-gray-800 dark:text-gray-200 px-20">
+                        <p className="text-xl text-gray-800 dark:text-gray-200 px-5">
                             My name is Sanjay Sugumar. I am a Computer Science student at Texas A&M University and I am also pursuing a minor in business.
                             I have a strong passion for technology and I am always looking for ways to learn more about it. I am also a huge fan of photography and I love to take pictures in my free time.
                             Some of my other hobbies include workinng out, running, and reading books. Feel free to connect with my on my socials and thanks for checking out my website!

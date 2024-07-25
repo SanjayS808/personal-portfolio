@@ -54,3 +54,7 @@ perspective: 1000px;
   font-size: 24px;
   transform: rotateY(180deg);
 }
+
+#card{
+  margin:5px;
+}

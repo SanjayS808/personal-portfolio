@@ -29,7 +29,6 @@ export default function AboutMe() {
 
                     <a href="/aboutme" class="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">About Me</a>
 
-                    <a href="/resume" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Resume</a>
 
 
                 </div>

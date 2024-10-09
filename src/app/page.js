@@ -31,7 +31,6 @@ export default function Home() {
 
                     <a href="/aboutme" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">About Me</a>
 
-                    <a href="/resume" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Resume</a>
 
 
                 </div>
@@ -47,7 +46,7 @@ export default function Home() {
               <p className="text-md py-5 leading-8 text-gray-800"></p>
 
               <div className="flex justify-center p-1">
-              <a href="https://drive.google.com/uc?export=download&id=15QTCKuwYTudUtIgP4zi6DcdTkLEnRItc">
+              <a href="https://drive.google.com/uc?export=download&id=1A45ZzH1hLq2Zq4lySoHULovAxEUF1AN-">
               <div class="button" data-tooltip="Size: 115 KB">
                 <div class="button-wrapper">
                   <div class="text">Download CV</div>
